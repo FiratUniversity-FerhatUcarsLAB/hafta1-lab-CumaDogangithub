@@ -3,76 +3,76 @@ AD-SOYAD:CUMA DOĞAN
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
 
-Monopoly'de en iyi hamle seçimi
+Monopoly’de En İyi Hamle Seçimi Algoritması
 
-🟢 BAŞLA
+Oyuncunun Durumunu Belirle:
+Önce kendi durumunu değerlendir. Elinde ne kadar nakit olduğunu, hangi mülklere sahip olduğunu, oyunun hangi aşamasında olduğunu (başlangıç, orta, geç) ve rakiplerin genel durumunu gözden geçir.
+Bu bilgiler kararlarının temelini oluşturur.
 
-⬇️
-1. NAKİT DURUMUNU KONTROL ET
-➡️ Eğer nakit ≥ 3× ortalama kira → Devam et
-➡️ Eğer azsa → Ev basmayı durdur, ipotek düşün. ⬇️
-2. KONUMU DEĞERLENDİR
-➡️ Eğer HAPİSTEYSEM →
+Nakit Güvenliğini Kontrol Et:
+Eğer elindeki para, ortalama kira bedelinin üç katından azsa risk alma; ev basma veya pahalı mülk alma gibi hareketlerden kaçın.
+Elinde yeterli nakit varsa, fırsat geldiğinde yatırım yapmaya hazır ol.
 
-Erken/Orta oyun → Çık (kart veya 50$)
+Hapisteysen Stratejini Seç:
 
-Geç oyun & kira yüksek → Bekle
-➡️ Eğer SERBESTSEM → Zar at, ilerle. ⬇️
-3. ZAR SONRASI DURUM
-🟨 BOŞ MÜLKE İNDİM →
+Eğer oyun başındaysan ya da ortalarda, hapisten çık ve oyna çünkü mülk toplama dönemi devam ediyor.
 
-Set tamamlama şansı yüksek mi?
+Eğer oyun sonuna gelindiyse ve haritada kira oranları yüksekse, hapiste kalmak bir avantajdır; böylece başkalarına kira ödeme riskinden kurtulursun.
 
-Evet → Satın al (nakit yeterliyse)
+Zar Attıktan Sonra Konumuna Göre Karar Ver:
 
-Hayır → Takas değeri var mı?
+Boş bir mülke indiysen:
+Mülkün değerini analiz et. Beklenen kira geliri yüksekse ve o mülk bir seti tamamlamana yardımcı olacaksa satın al.
+Ancak, elindeki para azsa ya da mülk stratejik olarak işe yaramıyorsa satın almamayı tercih et.
 
-Evet → Al
+Rakibin mülküne indiysen:
+Kira öde. Eğer paran yetersizse, en az kazanç getiren mülklerini ipotekle.
 
-Hayır → Pas geç 🟥 RAKİP MÜLKÜ →
+Kendi mülküne indiysen:
+Eğer aynı renkten bir setin varsa ve rakiplerin o hatta yaklaşmak üzereyse, ev inşa et.
+Rakip uzaktaysa ya da paran azsa bekle.
 
-Kira öde
+Takas Fırsatlarını Değerlendir:
+Rakiplerle yapılabilecek takasları gözden geçir.
+Eğer bir takas sana bir set kazandırıyorsa ve rakibin avantajını çok artırmıyorsa takası kabul et.
+Ancak rakibe tekel avantajı sağlayacak bir takası asla kabul etme, özellikle de elinde bol nakit varsa.
 
-Nakit yetersizse → İpotek sırası: Utility → Demiryolu → Zayıf renk → Güçlü set 🟦 KENDİ SETİM →
+Açık Artırmalarda Dikkatli Ol:
+Eğer açık artırmaya girersen, kendi setini tamamlamayacak mülkler için fazla ödeme yapma.
+Ancak rakibin bir seti tamamlayacağı mülk için fiyatı yükselterek onu zorlama stratejisini uygulayabilirsin.
 
-3 ev yapılabiliyor mu?
+Riskleri Hesapla:
+Önümüzdeki birkaç turda yüksek kira ödeyebileceğin karelere inme ihtimalini düşün.
+Eğer bu risk yüksekse, paranı koru ve yatırım yapma.
+Eğer risk düşükse, ev veya otel yatırımı yaparak gelirini artır.
 
-Evet + rakip yakında → Evleri dengeli bas
+Rakiplerin Davranışlarını Gözlemle:
+Rakip agresif mi (her fırsatta ev mi basıyor), yoksa temkinli mi?
+Eğer agresifse, elinde her zaman fazladan nakit tut ve onun kira hattına denk gelirsen iflas etmemek için hazır ol.
+Eğer temkinliyse, onun boş bıraktığı alanlarda yatırımı artırarak avantaj yakala.
 
-Hayır → Nakit biriktir ⬇️
-4. TAKAS VE AÇIK ARTIRMA
-➡️ Tekel tamamlanıyor mu?
+Oyun Evresine Göre Stratejini Güncelle:
 
-Evet, benim lehime → Kabul et
+Erken oyunda: Olabildiğince mülk satın al, set oluştur.
 
-Evet, rakibin lehine → Karşılığı güçlü değilse reddet
-➡️ Açık artırma → Rakibin setini tamamlayacaksa fiyatı yükselt. ⬇️
-5. RİSK ANALİZİ
-➡️ Yakında yüksek kira riski var mı?
+Orta oyunda: Ev yatırımlarına başla ve kira baskısı kur.
 
-Evet → Ev basmayı ertele
+Geç oyunda: Savunma stratejisine geç, riskli yatırımlardan kaçın, nakit tut ve kira hattından uzak durmaya çalış.
 
-Hayır → Yatırım yap
-➡️ Rakip agresif mi?
+Hamleni Değerlendir:
+Her hamle öncesi kendine şunu sor:
 
-Evet → Nakit tamponunu artır
+Bu hareket bana ne kazandıracak?
 
-Hayır → Normal stratejiye devam ⬇️
-6. GEÇ OYUN STRATEJİSİ
-➡️ 3 evli set varsa → Saldırı hattı oluştur
-➡️ Nakit azsa → Bekleme moduna geç, hapiste kal
-➡️ Rakip iflas eşiğinde → Ev basmaya devam ⬇️
-7. HAMLE SKORU HESAPLA
-Hamle Skoru = (İniş olasılığı × kira kazancı) − (İflas riski × nakit açığı)
+İflas etme riskimi artırıyor mu?
 
-(Set tamamlama değeri)
-− (Rakibe avantaj) ➡️ Skor > 0 → Hamleyi uygula
-➡️ Skor < 0 → Alternatif eylem seç ⬇️
-8. STRATEJİ GÜNCELLE
+Rakibin işine yarar mı?
+Eğer cevabın “kazanç yüksek, risk düşük” ise hamleyi yap. Aksi durumda bekle.
 
-Rakip hamlelerini gözle
+Hamleyi Uygula ve Sonuçları Gözle:
+Seçtiğin hamleyi yaptıktan sonra rakiplerin tepkilerini gözlemle.
+Eğer rakipler stratejini fark edip buna karşı hamle yapıyorsa, planını esnek tut ve bir sonraki tur için yeni bir yol haritası oluştur.
 
-Risk ve gelir dengesini yeniden hesapla
-
-Bir sonraki tura hazır ol ⬇️
-🟢 BİTİR / SONRAKİ TUR
+Turu Sonlandır ve Yeni Durumu Kaydet:
+O tur sonunda ne kadar para, mülk ve risk taşıdığını not et.
+Bu bilgiler bir sonraki kararında sana yol gösterecek.
