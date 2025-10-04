@@ -1,4 +1,47 @@
-Öğrenci No:
-AD-SOYAD:
+Öğrenci No:250542003  
+AD-SOYAD:CUMA DOĞAN
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+
+Telefon Rehberini Alfabetik Düzenleme Algoritması 
+
+Rehber Verisini Hazırla:
+Önce telefon rehberinde kayıtlı olan tüm kişilerin adlarını al.
+Örnek olarak, elimizde şu kişiler olsun:
+“Ahmet, Zeynep, Mehmet, Ali, Ayşe, Berk, Ziya”.
+
+Rehberin Boş Olup Olmadığını Kontrol Et:
+Eğer rehberde hiç isim yoksa işlem yapılmaz ve kullanıcıya “Rehberde kayıt bulunamadı” mesajı gösterilir.
+Eğer rehberde en az bir kişi varsa, bir sonraki adıma geçilir.
+
+Alfabetik Sıralamayı Başlat:
+Rehberdeki isimler A harfinden Z harfine doğru sıralanır.
+Bunun için her ismin ilk harfi karşılaştırılır.
+Eğer bir ismin baş harfi diğerinden önce geliyorsa, o isim önce yazılır.
+Harfler aynıysa, ikinci harfe göre karşılaştırma yapılır.
+Bu işlem, tüm isimler sıralı hale gelene kadar devam eder.
+
+Aynı Harfle Başlayan İsimleri Grupla:
+Sıralama tamamlandıktan sonra, isimleri baş harflerine göre gruplandır.
+Örneğin A harfiyle başlayan isimleri bir araya topla, B harfiyle başlayanları ayrı bir gruba yerleştir.
+Her grup kendi içinde yine alfabetik sıraya sahip olmalıdır.
+Bu sayede rehber düzenli bir biçimde harf harf ayrılmış olur.
+
+Grupları Listele:
+Her harf için bir başlık oluştur ve o harfle başlayan tüm isimleri altına yaz.
+Örneğin:
+
+“A” başlığı altında “Ahmet, Ali, Ayşe”
+
+“B” başlığı altında “Berk”
+
+“M” başlığı altında “Mehmet”
+
+“Z” başlığı altında “Zeynep, Ziya”
+
+Sonucu Göster:
+Tüm gruplar alfabetik sıraya göre ekranda veya listede gösterilir.
+Kullanıcı rehberini artık A’dan Z’ye düzenli şekilde görüntüleyebilir.
+
+İşlemi Sonlandır:
+Eğer kullanıcı yeni bir kişi eklerse, bu kişi uygun harf grubuna eklenir ve liste yeniden sıralanır.
