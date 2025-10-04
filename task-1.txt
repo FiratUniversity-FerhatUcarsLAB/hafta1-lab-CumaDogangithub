@@ -1,4 +1,50 @@
-Öğrenci No:
-AD-SOYAD:
+Öğrenci No:250542003
+AD-SOYAD:CUMA DOĞAN
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+
+Mükemmel Omlet Yapma Algoritması
+
+Hazırlığa Başla:
+Önce omlet için gerekli malzemeleri kontrol et. Bunlar yumurta, tuz, karabiber, tereyağı ve süttür.
+Eğer bu malzemelerden biri eksikse, omleti yapmaya başlamadan önce eksik olanı temin et.
+Bütün malzemeler tamamsa, bir kase al ve hazırlıklara geç.
+
+Yumurtaları Kır:
+Üç adet yumurtayı teker teker kasenin içine kır.
+Her yumurtayı kırarken dikkat et, kabuk parçası düşerse onu hemen kaşıkla çıkar.
+Tüm yumurtalar kırıldıktan sonra devam et.
+
+Karışımı Hazırla:
+Yumurtaların üzerine az miktarda süt (yaklaşık iki yemek kaşığı) ekle.
+Ardından tuz ve karabiber koy.
+Şimdi çırpıcı veya çatal yardımıyla karışımı çırpmaya başla.
+Karıştırma işlemini ortalama 20 saniye kadar sürdür.
+Yaklaşık 10. saniyede karışıma bak: eğer yüzeyde hafif köpüklenme başladıysa kıvam doğru yolda demektir.
+Köpük oluşmadıysa biraz daha karıştırmaya devam et.
+
+Tavayı Isıt:
+Tavayı ocağa koy ve altını orta derecede aç.
+Tava ısınana kadar bekle.
+Arada elini yukarıdan hafifçe yaklaştırarak sıcaklığı kontrol et; elini yakmayacak şekilde ılıklık hissediyorsan tavan yeterince ısınmıştır.
+Tereyağını ekle ve tamamen eriyene kadar bekle.
+Eğer tereyağı erimemişse, karışımı dökmek için acele etme.
+
+Omlet Karışımını Dök:
+Hazırladığın karışımı yavaşça tavaya dök.
+Tava yüzeyine eşit şekilde yayılmasına dikkat et.
+Şimdi omletin pişmesini izle.
+Yaklaşık iki dakika sonra kenarlarını kontrol et — katılaşmaya başladıysa doğru yoldasın.
+Eğer hâlâ sıvıysa biraz daha bekle.
+
+Omleti Çevir:
+Alt kısmı piştiğinde spatula yardımıyla omleti dikkatlice çevir.
+Eğer çevirmeye çalıştığında alt taraf hâlâ sıvıysa, bir dakika daha bekle ve ocağın ısısını hafifçe artır.
+Ardından tekrar dene.
+Omletin iki tarafı da altın rengini aldığında pişirme tamamlanmıştır.
+
+Servis Et:
+Omleti bir tabağa al.
+İsteğe bağlı olarak üzerine kaşar peyniri, maydanoz veya pul biber serpebilirsin.
+Dilersen yanında bir dilim ekmekle servis et.
+Son olarak ocağı kapat, mutfağı toparla ve “Afiyet olsun!” de.
