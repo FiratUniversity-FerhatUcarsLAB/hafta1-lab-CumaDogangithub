@@ -1,4 +1,61 @@
-Öğrenci No:
-AD-SOYAD:
+Öğrenci No:250542003  
+AD-SOYAD:CUMA DOĞAN
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+
+N Kişi İçin Adil Pasta Paylaşımı Algoritması 
+
+Katılımcı Sayısını Belirle:
+Öncelikle pastayı paylaşacak kişi sayısını öğren.
+Örneğin 4 kişi varsa, “N = 4” olur.
+
+Pastayı Bir Bütün Olarak Düşün:
+Pastanın tamamını “1 bütün” kabul et.
+Amaç, bu bir bütünü herkes için adil olacak şekilde paylaştırmaktır.
+
+Eşit Bölme Yap:
+Pastayı kişi sayısına göre eşit parçalara ayır.
+Yani 1 pastayı N kişiye bölmek istiyorsan, her kişi için pay miktarı = 1 ÷ N olur.
+Örneğin 4 kişi varsa herkes 1/4 yani %25 pasta alır.
+
+Parçaları Kontrol Et:
+Her bir parçanın gerçekten eşit olup olmadığını kontrol et.
+Eğer pastayı elle kesiyorsan, göz kararı farkları kontrol et ve gerekirse düzelt.
+Amaç, herkesin diliminin eşit büyüklükte görünmesini sağlamaktır.
+
+Algılanan Adalet Aşaması:
+Herkese dilimi göster ve adil olup olmadığını hissettir.
+Eğer biri dilimin küçük olduğunu düşünürse, diğerlerinden çok az miktar alıp dengeyi sağla.
+Bu küçük düzeltme, herkesin “adil hissettiği” bir paylaşım elde etmeyi sağlar.
+
+Toplamın Sabit Olduğundan Emin Ol:
+Tüm dilimlerin toplamı yine 1 bütüne eşit olmalıdır.
+Yani kimseye fazladan pay verilmemeli, kimse eksik kalmamalıdır.
+Eğer paylar toplamı 1’den fazla veya azsa, yeniden ayarlama yapılır.
+
+Sonuçları Göster:
+Her kişinin adını veya numarasını sırayla yaz ve yanına pay miktarını belirt.
+Böylece herkesin ne kadar aldığını açıkça görebilirsin.
+Örnek:
+
+kişi → %25
+
+kişi → %25
+
+kişi → %25
+
+kişi → %25
+
+Adalet Kontrolü (Gerçek Hayat Yöntemi):
+Eğer kişiler arasında güven azsa, şu yöntemi uygula:
+
+İlk kişi pastayı N eşit parçaya böler.
+
+Diğer kişiler sırayla istedikleri dilimi seçer.
+
+En son kalan dilimi, bölen kişi alır.
+Bu yöntem herkesin adil davranmasını teşvik eder çünkü pastayı bölen kişi, sonunda en son seçim yapacağını bildiği için mümkün olduğunca eşit kesmeye çalışır.
+
+Paylaşımı Tamamla:
+Herkes payını aldıktan sonra, toplamın doğru ve herkesin memnun olduğundan emin ol.
+Böylece “hem matematiksel olarak hem de psikolojik olarak” adil bir paylaşım elde edilir.
