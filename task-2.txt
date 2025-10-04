@@ -1,4 +1,76 @@
-Öğrenci No:
-AD-SOYAD:
+Öğrenci No:250542003
+AD-SOYAD:CUMA DOĞAN
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+
+🟢 BAŞLA
+
+⬇️
+1. NAKİT DURUMUNU KONTROL ET
+➡️ Eğer nakit ≥ 3× ortalama kira → Devam et
+➡️ Eğer azsa → Ev basmayı durdur, ipotek düşün. ⬇️
+2. KONUMU DEĞERLENDİR
+➡️ Eğer HAPİSTEYSEM →
+
+Erken/Orta oyun → Çık (kart veya 50$)
+
+Geç oyun & kira yüksek → Bekle
+➡️ Eğer SERBESTSEM → Zar at, ilerle. ⬇️
+3. ZAR SONRASI DURUM
+🟨 BOŞ MÜLKE İNDİM →
+
+Set tamamlama şansı yüksek mi?
+
+Evet → Satın al (nakit yeterliyse)
+
+Hayır → Takas değeri var mı?
+
+Evet → Al
+
+Hayır → Pas geç 🟥 RAKİP MÜLKÜ →
+
+Kira öde
+
+Nakit yetersizse → İpotek sırası: Utility → Demiryolu → Zayıf renk → Güçlü set 🟦 KENDİ SETİM →
+
+3 ev yapılabiliyor mu?
+
+Evet + rakip yakında → Evleri dengeli bas
+
+Hayır → Nakit biriktir ⬇️
+4. TAKAS VE AÇIK ARTIRMA
+➡️ Tekel tamamlanıyor mu?
+
+Evet, benim lehime → Kabul et
+
+Evet, rakibin lehine → Karşılığı güçlü değilse reddet
+➡️ Açık artırma → Rakibin setini tamamlayacaksa fiyatı yükselt. ⬇️
+5. RİSK ANALİZİ
+➡️ Yakında yüksek kira riski var mı?
+
+Evet → Ev basmayı ertele
+
+Hayır → Yatırım yap
+➡️ Rakip agresif mi?
+
+Evet → Nakit tamponunu artır
+
+Hayır → Normal stratejiye devam ⬇️
+6. GEÇ OYUN STRATEJİSİ
+➡️ 3 evli set varsa → Saldırı hattı oluştur
+➡️ Nakit azsa → Bekleme moduna geç, hapiste kal
+➡️ Rakip iflas eşiğinde → Ev basmaya devam ⬇️
+7. HAMLE SKORU HESAPLA
+Hamle Skoru = (İniş olasılığı × kira kazancı) − (İflas riski × nakit açığı)
+
+(Set tamamlama değeri)
+− (Rakibe avantaj) ➡️ Skor > 0 → Hamleyi uygula
+➡️ Skor < 0 → Alternatif eylem seç ⬇️
+8. STRATEJİ GÜNCELLE
+
+Rakip hamlelerini gözle
+
+Risk ve gelir dengesini yeniden hesapla
+
+Bir sonraki tura hazır ol ⬇️
+🟢 BİTİR / SONRAKİ TUR
