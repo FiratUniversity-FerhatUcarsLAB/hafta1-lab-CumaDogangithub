@@ -1,4 +1,42 @@
-Öğrenci No:
-AD-SOYAD:
+Öğrenci No:250542003  
+AD-SOYAD:Cuma DOĞAN
 
 Lütfen seçtiğiniz algoritmaya ait çözümü ve diğer isterleri aşağıya ekleyiniz:
+
+Okuldaki Eski Bilgisayarların Onarımı İçin Algoritma 
+
+* BAŞLA
+
+* Tüm bilgisayarları sırayla listele.
+
+* Her bilgisayar için:
+  a. Bilgisayar çalışıyor mu?
+   - Evetse: Performansını kontrol et.
+   - Hayırsa: “Çalışmıyor” olarak işaretle.
+
+* Eğer bilgisayar çalışıyor ise:
+  a. RAM yeterli mi? (≥8 GB)
+   - Değilse → “RAM yükselt” olarak kaydet.
+  b. Disk sağlıklı mı? (bozuk veya yavaş mı?)
+   - Bozuksa → “Disk değiştir” olarak kaydet.
+  c. Fan çalışıyor mu, ısınma var mı?
+   - Sorun varsa → “Fan temizle veya değiştir”.
+  d. Tüm testler normalse → “Sağlam” olarak işaretle.
+
+* Eğer bilgisayar çalışmıyorsa:
+  a. Güç kablosu, PSU veya anakart kontrol et.
+  b. Küçük parça arızası varsa → “Onarılacaklar listesine ekle”.
+  c. Anakart veya işlemci arızalıysa → “Değiştirilecekler listesine ekle”.
+  d. Tamir mümkün değilse → “Hurda listesine ekle”.
+
+* Sonuçları değerlendir:
+  - Onarılacak bilgisayarları sırayla tamir et.
+  - Değiştirilecek bilgisayarlar için yeni donanım planla.
+  - Hurdaya ayrılanlardan sağlam parçaları ayırıp stoğa ekle.
+
+* Rapor oluştur:
+  - Kaç bilgisayar onarıldı?
+  - Kaçı değiştirildi?
+  - Kaçı hurdaya ayrıldı?
+
+* BİTİR
